@@ -2,7 +2,7 @@ const km = prompt("Quanti km vuoi percorrere?");
 const age = prompt("Quanti anni hai?");
 let price = km * 0.21;
 let discountUnder = ((price * 20) / 100);
-let discountOver = ((price * 40) / 100);
+let discountOver = ((price * 40) / 100);20
 
 console.log( km);
 console.log( age);
@@ -28,4 +28,4 @@ if (age > 65) {
 
 
 document.getElementById("totalPrice").innerHTML = totalPrice;
-document.getElementById("sei minorenne, hai diritto a uno sconto del 20%").innerHTML = totalPrice;
+
