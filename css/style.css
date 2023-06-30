@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+img {
+opacity: 80%;
+}
+
+.bg-train {
+    background-image: url(/img/train.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col {
+    background-color: white;
+}
+
